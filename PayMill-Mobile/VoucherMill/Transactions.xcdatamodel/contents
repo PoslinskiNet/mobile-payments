@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1811" systemVersion="11G63" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Data" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Payment" syncable="YES">
+        <attribute name="code" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Transaction" syncable="YES">
+        <attribute name="transactionID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="transactionType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="voucherType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Transaction_full_test" representedClassName="Transaction" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created_at" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="currency" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="descr" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="livemode" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="origin_amount" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="payment" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="response_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updated_at" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="rel_payment" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Payment" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Data" positionX="-252" positionY="321" width="128" height="75"/>
+        <element name="Payment" positionX="79" positionY="171" width="128" height="75"/>
+        <element name="Transaction_full_test" positionX="-72" positionY="171" width="128" height="225"/>
+        <element name="Transaction" positionX="-254" positionY="171" width="128" height="90"/>
+    </elements>
+</model>

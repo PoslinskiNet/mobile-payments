@@ -1,0 +1,716 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* DemoZooZSDKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DemoZooZSDKAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* DemoZooZSDKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* DemoZooZSDKViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* DemoZooZSDKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* DemoZooZSDKViewController.m */; };
+		2E2F7B4B16CE74D4000B95CC /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7AEB16CE74D4000B95CC /* arrow.png */; };
+		2E2F7B4C16CE74D4000B95CC /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7AEC16CE74D4000B95CC /* arrow@2x.png */; };
+		2E2F7B4D16CE74D4000B95CC /* arrow_Hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7AED16CE74D4000B95CC /* arrow_Hover.png */; };
+		2E2F7B4E16CE74D4000B95CC /* arrow_Hover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7AEE16CE74D4000B95CC /* arrow_Hover@2x.png */; };
+		2E2F7B4F16CE74D4000B95CC /* button_black.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7AEF16CE74D4000B95CC /* button_black.png */; };
+		2E2F7B5016CE74D4000B95CC /* button_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7AF016CE74D4000B95CC /* button_blue.png */; };
+		2E2F7B5116CE74D4000B95CC /* button_green.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7AF116CE74D4000B95CC /* button_green.png */; };
+		2E2F7B5216CE74D4000B95CC /* button_green_big_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7AF216CE74D4000B95CC /* button_green_big_press.png */; };
+		2E2F7B5316CE74D4000B95CC /* button_green_big_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7AF316CE74D4000B95CC /* button_green_big_up.png */; };
+		2E2F7B5416CE74D4000B95CC /* button_green_small_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7AF416CE74D4000B95CC /* button_green_small_press.png */; };
+		2E2F7B5516CE74D4000B95CC /* button_green_small_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7AF516CE74D4000B95CC /* button_green_small_up.png */; };
+		2E2F7B5616CE74D4000B95CC /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7AF616CE74D4000B95CC /* camera.png */; };
+		2E2F7B5716CE74D4000B95CC /* cards_all.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7AF716CE74D4000B95CC /* cards_all.png */; };
+		2E2F7B5816CE74D4000B95CC /* cards_americanexpress.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7AF816CE74D4000B95CC /* cards_americanexpress.png */; };
+		2E2F7B5916CE74D4000B95CC /* cards_americanexpress@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7AF916CE74D4000B95CC /* cards_americanexpress@2x.png */; };
+		2E2F7B5A16CE74D4000B95CC /* cards_americanexpress_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7AFA16CE74D4000B95CC /* cards_americanexpress_s.png */; };
+		2E2F7B5B16CE74D4000B95CC /* cards_diners.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7AFB16CE74D4000B95CC /* cards_diners.png */; };
+		2E2F7B5C16CE74D4000B95CC /* cards_diners@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7AFC16CE74D4000B95CC /* cards_diners@2x.png */; };
+		2E2F7B5D16CE74D4000B95CC /* cards_diners_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7AFD16CE74D4000B95CC /* cards_diners_s.png */; };
+		2E2F7B5E16CE74D4000B95CC /* cards_discover.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7AFE16CE74D4000B95CC /* cards_discover.png */; };
+		2E2F7B5F16CE74D4000B95CC /* cards_discover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7AFF16CE74D4000B95CC /* cards_discover@2x.png */; };
+		2E2F7B6016CE74D4000B95CC /* cards_discover_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B0016CE74D4000B95CC /* cards_discover_s.png */; };
+		2E2F7B6116CE74D4000B95CC /* cards_dwolla.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B0116CE74D4000B95CC /* cards_dwolla.png */; };
+		2E2F7B6216CE74D4000B95CC /* cards_generic.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B0216CE74D4000B95CC /* cards_generic.png */; };
+		2E2F7B6316CE74D4000B95CC /* cards_generic_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B0316CE74D4000B95CC /* cards_generic_s.png */; };
+		2E2F7B6416CE74D4000B95CC /* cards_isracard_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B0416CE74D4000B95CC /* cards_isracard_s.png */; };
+		2E2F7B6516CE74D4000B95CC /* cards_jcb.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B0516CE74D4000B95CC /* cards_jcb.png */; };
+		2E2F7B6616CE74D4000B95CC /* cards_jcb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B0616CE74D4000B95CC /* cards_jcb@2x.png */; };
+		2E2F7B6716CE74D4000B95CC /* cards_jcb_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B0716CE74D4000B95CC /* cards_jcb_s.png */; };
+		2E2F7B6816CE74D4000B95CC /* cards_klarna.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B0816CE74D4000B95CC /* cards_klarna.png */; };
+		2E2F7B6916CE74D4000B95CC /* cards_leumimastercard.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B0916CE74D4000B95CC /* cards_leumimastercard.png */; };
+		2E2F7B6A16CE74D4000B95CC /* cards_leumivisa.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B0A16CE74D4000B95CC /* cards_leumivisa.png */; };
+		2E2F7B6B16CE74D4000B95CC /* cards_mastercard.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B0B16CE74D4000B95CC /* cards_mastercard.png */; };
+		2E2F7B6C16CE74D4000B95CC /* cards_mastercard@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B0C16CE74D4000B95CC /* cards_mastercard@2x.png */; };
+		2E2F7B6D16CE74D4000B95CC /* cards_mastercard_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B0D16CE74D4000B95CC /* cards_mastercard_s.png */; };
+		2E2F7B6E16CE74D4000B95CC /* cards_paypal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B0E16CE74D4000B95CC /* cards_paypal.png */; };
+		2E2F7B6F16CE74D4000B95CC /* cards_paypal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B0F16CE74D4000B95CC /* cards_paypal@2x.png */; };
+		2E2F7B7016CE74D4000B95CC /* cards_qiwi.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B1016CE74D4000B95CC /* cards_qiwi.png */; };
+		2E2F7B7116CE74D4000B95CC /* cards_visa.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B1116CE74D4000B95CC /* cards_visa.png */; };
+		2E2F7B7216CE74D4000B95CC /* cards_visa@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B1216CE74D4000B95CC /* cards_visa@2x.png */; };
+		2E2F7B7316CE74D4000B95CC /* cards_visa_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B1316CE74D4000B95CC /* cards_visa_s.png */; };
+		2E2F7B7416CE74D4000B95CC /* checkbox_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B1416CE74D4000B95CC /* checkbox_checked.png */; };
+		2E2F7B7516CE74D4000B95CC /* checkbox_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B1516CE74D4000B95CC /* checkbox_unchecked.png */; };
+		2E2F7B7616CE74D4000B95CC /* creditcard-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B1616CE74D4000B95CC /* creditcard-logo.png */; };
+		2E2F7B7716CE74D4000B95CC /* cvv_americanexpress.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B1716CE74D4000B95CC /* cvv_americanexpress.png */; };
+		2E2F7B7816CE74D4000B95CC /* cvv_mastercard.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B1816CE74D4000B95CC /* cvv_mastercard.png */; };
+		2E2F7B7916CE74D4000B95CC /* cvv_other.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B1916CE74D4000B95CC /* cvv_other.png */; };
+		2E2F7B7A16CE74D4000B95CC /* cvv_visa.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B1A16CE74D4000B95CC /* cvv_visa.png */; };
+		2E2F7B7B16CE74D4000B95CC /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B1B16CE74D4000B95CC /* delete.png */; };
+		2E2F7B7C16CE74D4000B95CC /* dotted_line.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B1C16CE74D4000B95CC /* dotted_line.png */; };
+		2E2F7B7D16CE74D4000B95CC /* dwolla-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B1D16CE74D4000B95CC /* dwolla-logo.png */; };
+		2E2F7B7E16CE74D4000B95CC /* icon_card.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B1E16CE74D4000B95CC /* icon_card.png */; };
+		2E2F7B7F16CE74D4000B95CC /* icon_info.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B1F16CE74D4000B95CC /* icon_info.png */; };
+		2E2F7B8016CE74D4000B95CC /* icon_V.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B2016CE74D4000B95CC /* icon_V.png */; };
+		2E2F7B8116CE74D4000B95CC /* klarna-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B2116CE74D4000B95CC /* klarna-logo.png */; };
+		2E2F7B8216CE74D4000B95CC /* Localizable-Netswipe.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B2216CE74D4000B95CC /* Localizable-Netswipe.strings */; };
+		2E2F7B8316CE74D4000B95CC /* lock_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B2316CE74D4000B95CC /* lock_small.png */; };
+		2E2F7B8416CE74D4000B95CC /* logo_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B2416CE74D4000B95CC /* logo_big.png */; };
+		2E2F7B8516CE74D4000B95CC /* logo_small.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B2516CE74D4000B95CC /* logo_small.png */; };
+		2E2F7B8616CE74D4000B95CC /* paypal-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B2616CE74D4000B95CC /* paypal-logo.png */; };
+		2E2F7B8716CE74D4000B95CC /* paypal-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B2716CE74D4000B95CC /* paypal-logo@2x.png */; };
+		2E2F7B8816CE74D4000B95CC /* qiwi-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B2816CE74D4000B95CC /* qiwi-logo.png */; };
+		2E2F7B8916CE74D4000B95CC /* sandbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B2916CE74D4000B95CC /* sandbox.png */; };
+		2E2F7B8A16CE74D4000B95CC /* seal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B2A16CE74D4000B95CC /* seal.png */; };
+		2E2F7B8B16CE74D4000B95CC /* seal1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B2B16CE74D4000B95CC /* seal1.png */; };
+		2E2F7B8C16CE74D4000B95CC /* seal2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B2C16CE74D4000B95CC /* seal2.png */; };
+		2E2F7B8D16CE74D4000B95CC /* seal4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B2D16CE74D4000B95CC /* seal4.png */; };
+		2E2F7B8E16CE74D4000B95CC /* security_button_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B2E16CE74D4000B95CC /* security_button_press.png */; };
+		2E2F7B8F16CE74D4000B95CC /* security_button_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B2F16CE74D4000B95CC /* security_button_up.png */; };
+		2E2F7B9016CE74D4000B95CC /* security_icon_arow_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B3016CE74D4000B95CC /* security_icon_arow_press.png */; };
+		2E2F7B9116CE74D4000B95CC /* security_icon_arow_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B3116CE74D4000B95CC /* security_icon_arow_up.png */; };
+		2E2F7B9216CE74D4000B95CC /* security_icon_fingerprint_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B3216CE74D4000B95CC /* security_icon_fingerprint_press.png */; };
+		2E2F7B9316CE74D4000B95CC /* security_icon_fingerprint_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B3316CE74D4000B95CC /* security_icon_fingerprint_up.png */; };
+		2E2F7B9416CE74D4000B95CC /* shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B3416CE74D4000B95CC /* shadow.png */; };
+		2E2F7B9516CE74D4000B95CC /* shadow_780.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B3516CE74D4000B95CC /* shadow_780.png */; };
+		2E2F7B9616CE74D4000B95CC /* texbox.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B3616CE74D4000B95CC /* texbox.png */; };
+		2E2F7B9716CE74D4000B95CC /* topHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B3716CE74D4000B95CC /* topHeader.png */; };
+		2E2F7B9816CE74D4000B95CC /* White_title.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B3816CE74D4000B95CC /* White_title.png */; };
+		2E2F7B9916CE74D4000B95CC /* White_title_bottom_shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B3916CE74D4000B95CC /* White_title_bottom_shadow.png */; };
+		2E2F7B9A16CE74D4000B95CC /* ZooZCardSelection.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B3A16CE74D4000B95CC /* ZooZCardSelection.nib */; };
+		2E2F7B9B16CE74D4000B95CC /* ZooZCardSelection_ipad.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B3B16CE74D4000B95CC /* ZooZCardSelection_ipad.nib */; };
+		2E2F7B9C16CE74D4000B95CC /* ZooZDwollaViewController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B3C16CE74D4000B95CC /* ZooZDwollaViewController.nib */; };
+		2E2F7B9D16CE74D4000B95CC /* ZooZEndPayment.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B3D16CE74D4000B95CC /* ZooZEndPayment.nib */; };
+		2E2F7B9E16CE74D4000B95CC /* ZooZEndPayment_ipad.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B3E16CE74D4000B95CC /* ZooZEndPayment_ipad.nib */; };
+		2E2F7B9F16CE74D4000B95CC /* ZooZFundTypeSelectView.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B3F16CE74D4000B95CC /* ZooZFundTypeSelectView.nib */; };
+		2E2F7BA016CE74D4000B95CC /* ZooZFundTypeSelectView_ipad.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B4016CE74D4000B95CC /* ZooZFundTypeSelectView_ipad.nib */; };
+		2E2F7BA116CE74D4000B95CC /* ZooZGenWebController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B4116CE74D4000B95CC /* ZooZGenWebController.nib */; };
+		2E2F7BA216CE74D4000B95CC /* ZooZGenWebController_ipad.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B4216CE74D4000B95CC /* ZooZGenWebController_ipad.nib */; };
+		2E2F7BA316CE74D4000B95CC /* zoozi18n.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B4316CE74D4000B95CC /* zoozi18n.bundle */; };
+		2E2F7BA416CE74D4000B95CC /* ZooZNewCardController.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B4416CE74D4000B95CC /* ZooZNewCardController.nib */; };
+		2E2F7BA516CE74D4000B95CC /* ZooZNewCardController_ipad.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B4516CE74D4000B95CC /* ZooZNewCardController_ipad.nib */; };
+		2E2F7BA616CE74D4000B95CC /* ZooZPasscodeSave.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B4616CE74D4000B95CC /* ZooZPasscodeSave.nib */; };
+		2E2F7BA716CE74D4000B95CC /* ZooZPassCodeSave_ipad.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B4716CE74D4000B95CC /* ZooZPassCodeSave_ipad.nib */; };
+		2E2F7BA816CE74D4000B95CC /* ZooZPasscodeVerify.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B4816CE74D4000B95CC /* ZooZPasscodeVerify.nib */; };
+		2E2F7BA916CE74D4000B95CC /* ZooZPasscodeVerify_ipad.nib in Resources */ = {isa = PBXBuildFile; fileRef = 2E2F7B4916CE74D4000B95CC /* ZooZPasscodeVerify_ipad.nib */; };
+		2E2F7BAA16CE74D4000B95CC /* ZooZSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2F7B4A16CE74D4000B95CC /* ZooZSDK.framework */; };
+		2E406B9B14FA2D63000FE16C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E406B9A14FA2D63000FE16C /* Default.png */; };
+		2E4B9D9314F1A1B6008AE25F /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E4B9D9214F1A1B6008AE25F /* libxml2.dylib */; };
+		2E6F8307148D3A0C0060C36B /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E6F8306148D3A0B0060C36B /* libz.dylib */; };
+		2EBF300716314C600034FE88 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EBF300616314C600034FE88 /* Default-568h@2x.png */; };
+		A6495657143DBE6C00051170 /* sample_background.png in Resources */ = {isa = PBXBuildFile; fileRef = A6495656143DBE6C00051170 /* sample_background.png */; };
+		A649566C143DC3E100051170 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A649566B143DC3E100051170 /* Security.framework */; };
+		A6495674143DC43E00051170 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6495673143DC43E00051170 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* DemoZooZSDKAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoZooZSDKAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* DemoZooZSDKAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoZooZSDKAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* DemoZooZSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoZooZSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* DemoZooZSDKViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoZooZSDKViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* DemoZooZSDKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoZooZSDKViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* DemoZooZSDKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoZooZSDKViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2E2F7AEB16CE74D4000B95CC /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		2E2F7AEC16CE74D4000B95CC /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
+		2E2F7AED16CE74D4000B95CC /* arrow_Hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow_Hover.png; sourceTree = "<group>"; };
+		2E2F7AEE16CE74D4000B95CC /* arrow_Hover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "arrow_Hover@2x.png"; sourceTree = "<group>"; };
+		2E2F7AEF16CE74D4000B95CC /* button_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_black.png; sourceTree = "<group>"; };
+		2E2F7AF016CE74D4000B95CC /* button_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_blue.png; sourceTree = "<group>"; };
+		2E2F7AF116CE74D4000B95CC /* button_green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_green.png; sourceTree = "<group>"; };
+		2E2F7AF216CE74D4000B95CC /* button_green_big_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_green_big_press.png; sourceTree = "<group>"; };
+		2E2F7AF316CE74D4000B95CC /* button_green_big_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_green_big_up.png; sourceTree = "<group>"; };
+		2E2F7AF416CE74D4000B95CC /* button_green_small_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_green_small_press.png; sourceTree = "<group>"; };
+		2E2F7AF516CE74D4000B95CC /* button_green_small_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_green_small_up.png; sourceTree = "<group>"; };
+		2E2F7AF616CE74D4000B95CC /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		2E2F7AF716CE74D4000B95CC /* cards_all.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cards_all.png; sourceTree = "<group>"; };
+		2E2F7AF816CE74D4000B95CC /* cards_americanexpress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cards_americanexpress.png; sourceTree = "<group>"; };
+		2E2F7AF916CE74D4000B95CC /* cards_americanexpress@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cards_americanexpress@2x.png"; sourceTree = "<group>"; };
+		2E2F7AFA16CE74D4000B95CC /* cards_americanexpress_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cards_americanexpress_s.png; sourceTree = "<group>"; };
+		2E2F7AFB16CE74D4000B95CC /* cards_diners.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cards_diners.png; sourceTree = "<group>"; };
+		2E2F7AFC16CE74D4000B95CC /* cards_diners@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cards_diners@2x.png"; sourceTree = "<group>"; };
+		2E2F7AFD16CE74D4000B95CC /* cards_diners_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cards_diners_s.png; sourceTree = "<group>"; };
+		2E2F7AFE16CE74D4000B95CC /* cards_discover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cards_discover.png; sourceTree = "<group>"; };
+		2E2F7AFF16CE74D4000B95CC /* cards_discover@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cards_discover@2x.png"; sourceTree = "<group>"; };
+		2E2F7B0016CE74D4000B95CC /* cards_discover_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cards_discover_s.png; sourceTree = "<group>"; };
+		2E2F7B0116CE74D4000B95CC /* cards_dwolla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cards_dwolla.png; sourceTree = "<group>"; };
+		2E2F7B0216CE74D4000B95CC /* cards_generic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cards_generic.png; sourceTree = "<group>"; };
+		2E2F7B0316CE74D4000B95CC /* cards_generic_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cards_generic_s.png; sourceTree = "<group>"; };
+		2E2F7B0416CE74D4000B95CC /* cards_isracard_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cards_isracard_s.png; sourceTree = "<group>"; };
+		2E2F7B0516CE74D4000B95CC /* cards_jcb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cards_jcb.png; sourceTree = "<group>"; };
+		2E2F7B0616CE74D4000B95CC /* cards_jcb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cards_jcb@2x.png"; sourceTree = "<group>"; };
+		2E2F7B0716CE74D4000B95CC /* cards_jcb_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cards_jcb_s.png; sourceTree = "<group>"; };
+		2E2F7B0816CE74D4000B95CC /* cards_klarna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cards_klarna.png; sourceTree = "<group>"; };
+		2E2F7B0916CE74D4000B95CC /* cards_leumimastercard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cards_leumimastercard.png; sourceTree = "<group>"; };
+		2E2F7B0A16CE74D4000B95CC /* cards_leumivisa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cards_leumivisa.png; sourceTree = "<group>"; };
+		2E2F7B0B16CE74D4000B95CC /* cards_mastercard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cards_mastercard.png; sourceTree = "<group>"; };
+		2E2F7B0C16CE74D4000B95CC /* cards_mastercard@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cards_mastercard@2x.png"; sourceTree = "<group>"; };
+		2E2F7B0D16CE74D4000B95CC /* cards_mastercard_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cards_mastercard_s.png; sourceTree = "<group>"; };
+		2E2F7B0E16CE74D4000B95CC /* cards_paypal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cards_paypal.png; sourceTree = "<group>"; };
+		2E2F7B0F16CE74D4000B95CC /* cards_paypal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cards_paypal@2x.png"; sourceTree = "<group>"; };
+		2E2F7B1016CE74D4000B95CC /* cards_qiwi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cards_qiwi.png; sourceTree = "<group>"; };
+		2E2F7B1116CE74D4000B95CC /* cards_visa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cards_visa.png; sourceTree = "<group>"; };
+		2E2F7B1216CE74D4000B95CC /* cards_visa@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cards_visa@2x.png"; sourceTree = "<group>"; };
+		2E2F7B1316CE74D4000B95CC /* cards_visa_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cards_visa_s.png; sourceTree = "<group>"; };
+		2E2F7B1416CE74D4000B95CC /* checkbox_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_checked.png; sourceTree = "<group>"; };
+		2E2F7B1516CE74D4000B95CC /* checkbox_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_unchecked.png; sourceTree = "<group>"; };
+		2E2F7B1616CE74D4000B95CC /* creditcard-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "creditcard-logo.png"; sourceTree = "<group>"; };
+		2E2F7B1716CE74D4000B95CC /* cvv_americanexpress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cvv_americanexpress.png; sourceTree = "<group>"; };
+		2E2F7B1816CE74D4000B95CC /* cvv_mastercard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cvv_mastercard.png; sourceTree = "<group>"; };
+		2E2F7B1916CE74D4000B95CC /* cvv_other.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cvv_other.png; sourceTree = "<group>"; };
+		2E2F7B1A16CE74D4000B95CC /* cvv_visa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cvv_visa.png; sourceTree = "<group>"; };
+		2E2F7B1B16CE74D4000B95CC /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		2E2F7B1C16CE74D4000B95CC /* dotted_line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dotted_line.png; sourceTree = "<group>"; };
+		2E2F7B1D16CE74D4000B95CC /* dwolla-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dwolla-logo.png"; sourceTree = "<group>"; };
+		2E2F7B1E16CE74D4000B95CC /* icon_card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_card.png; sourceTree = "<group>"; };
+		2E2F7B1F16CE74D4000B95CC /* icon_info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_info.png; sourceTree = "<group>"; };
+		2E2F7B2016CE74D4000B95CC /* icon_V.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_V.png; sourceTree = "<group>"; };
+		2E2F7B2116CE74D4000B95CC /* klarna-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "klarna-logo.png"; sourceTree = "<group>"; };
+		2E2F7B2216CE74D4000B95CC /* Localizable-Netswipe.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = "Localizable-Netswipe.strings"; sourceTree = "<group>"; };
+		2E2F7B2316CE74D4000B95CC /* lock_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock_small.png; sourceTree = "<group>"; };
+		2E2F7B2416CE74D4000B95CC /* logo_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_big.png; sourceTree = "<group>"; };
+		2E2F7B2516CE74D4000B95CC /* logo_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_small.png; sourceTree = "<group>"; };
+		2E2F7B2616CE74D4000B95CC /* paypal-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paypal-logo.png"; sourceTree = "<group>"; };
+		2E2F7B2716CE74D4000B95CC /* paypal-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "paypal-logo@2x.png"; sourceTree = "<group>"; };
+		2E2F7B2816CE74D4000B95CC /* qiwi-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qiwi-logo.png"; sourceTree = "<group>"; };
+		2E2F7B2916CE74D4000B95CC /* sandbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sandbox.png; sourceTree = "<group>"; };
+		2E2F7B2A16CE74D4000B95CC /* seal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seal.png; sourceTree = "<group>"; };
+		2E2F7B2B16CE74D4000B95CC /* seal1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seal1.png; sourceTree = "<group>"; };
+		2E2F7B2C16CE74D4000B95CC /* seal2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seal2.png; sourceTree = "<group>"; };
+		2E2F7B2D16CE74D4000B95CC /* seal4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seal4.png; sourceTree = "<group>"; };
+		2E2F7B2E16CE74D4000B95CC /* security_button_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = security_button_press.png; sourceTree = "<group>"; };
+		2E2F7B2F16CE74D4000B95CC /* security_button_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = security_button_up.png; sourceTree = "<group>"; };
+		2E2F7B3016CE74D4000B95CC /* security_icon_arow_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = security_icon_arow_press.png; sourceTree = "<group>"; };
+		2E2F7B3116CE74D4000B95CC /* security_icon_arow_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = security_icon_arow_up.png; sourceTree = "<group>"; };
+		2E2F7B3216CE74D4000B95CC /* security_icon_fingerprint_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = security_icon_fingerprint_press.png; sourceTree = "<group>"; };
+		2E2F7B3316CE74D4000B95CC /* security_icon_fingerprint_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = security_icon_fingerprint_up.png; sourceTree = "<group>"; };
+		2E2F7B3416CE74D4000B95CC /* shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow.png; sourceTree = "<group>"; };
+		2E2F7B3516CE74D4000B95CC /* shadow_780.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shadow_780.png; sourceTree = "<group>"; };
+		2E2F7B3616CE74D4000B95CC /* texbox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = texbox.png; sourceTree = "<group>"; };
+		2E2F7B3716CE74D4000B95CC /* topHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topHeader.png; sourceTree = "<group>"; };
+		2E2F7B3816CE74D4000B95CC /* White_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = White_title.png; sourceTree = "<group>"; };
+		2E2F7B3916CE74D4000B95CC /* White_title_bottom_shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = White_title_bottom_shadow.png; sourceTree = "<group>"; };
+		2E2F7B3A16CE74D4000B95CC /* ZooZCardSelection.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZooZCardSelection.nib; sourceTree = "<group>"; };
+		2E2F7B3B16CE74D4000B95CC /* ZooZCardSelection_ipad.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZooZCardSelection_ipad.nib; sourceTree = "<group>"; };
+		2E2F7B3C16CE74D4000B95CC /* ZooZDwollaViewController.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZooZDwollaViewController.nib; sourceTree = "<group>"; };
+		2E2F7B3D16CE74D4000B95CC /* ZooZEndPayment.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZooZEndPayment.nib; sourceTree = "<group>"; };
+		2E2F7B3E16CE74D4000B95CC /* ZooZEndPayment_ipad.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZooZEndPayment_ipad.nib; sourceTree = "<group>"; };
+		2E2F7B3F16CE74D4000B95CC /* ZooZFundTypeSelectView.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZooZFundTypeSelectView.nib; sourceTree = "<group>"; };
+		2E2F7B4016CE74D4000B95CC /* ZooZFundTypeSelectView_ipad.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZooZFundTypeSelectView_ipad.nib; sourceTree = "<group>"; };
+		2E2F7B4116CE74D4000B95CC /* ZooZGenWebController.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZooZGenWebController.nib; sourceTree = "<group>"; };
+		2E2F7B4216CE74D4000B95CC /* ZooZGenWebController_ipad.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZooZGenWebController_ipad.nib; sourceTree = "<group>"; };
+		2E2F7B4316CE74D4000B95CC /* zoozi18n.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = zoozi18n.bundle; sourceTree = "<group>"; };
+		2E2F7B4416CE74D4000B95CC /* ZooZNewCardController.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZooZNewCardController.nib; sourceTree = "<group>"; };
+		2E2F7B4516CE74D4000B95CC /* ZooZNewCardController_ipad.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZooZNewCardController_ipad.nib; sourceTree = "<group>"; };
+		2E2F7B4616CE74D4000B95CC /* ZooZPasscodeSave.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZooZPasscodeSave.nib; sourceTree = "<group>"; };
+		2E2F7B4716CE74D4000B95CC /* ZooZPassCodeSave_ipad.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZooZPassCodeSave_ipad.nib; sourceTree = "<group>"; };
+		2E2F7B4816CE74D4000B95CC /* ZooZPasscodeVerify.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZooZPasscodeVerify.nib; sourceTree = "<group>"; };
+		2E2F7B4916CE74D4000B95CC /* ZooZPasscodeVerify_ipad.nib */ = {isa = PBXFileReference; lastKnownFileType = file; path = ZooZPasscodeVerify_ipad.nib; sourceTree = "<group>"; };
+		2E2F7B4A16CE74D4000B95CC /* ZooZSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZooZSDK.framework; sourceTree = "<group>"; };
+		2E406B9A14FA2D63000FE16C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2E4B9D9214F1A1B6008AE25F /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		2E67C3061564E5F900363321 /* DemoZooZSDK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DemoZooZSDK-Info.plist"; sourceTree = "<group>"; };
+		2E6F8306148D3A0B0060C36B /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		2EBF300616314C600034FE88 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* DemoZooZSDK_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoZooZSDK_Prefix.pch; sourceTree = "<group>"; };
+		A6495656143DBE6C00051170 /* sample_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sample_background.png; sourceTree = "<group>"; };
+		A649566B143DC3E100051170 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A6495673143DC43E00051170 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E4B9D9314F1A1B6008AE25F /* libxml2.dylib in Frameworks */,
+				2E6F8307148D3A0C0060C36B /* libz.dylib in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				A649566C143DC3E100051170 /* Security.framework in Frameworks */,
+				A6495674143DC43E00051170 /* QuartzCore.framework in Frameworks */,
+				2E2F7BAA16CE74D4000B95CC /* ZooZSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* DemoZooZSDKAppDelegate.h */,
+				1D3623250D0F684500981E51 /* DemoZooZSDKAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* DemoZooZSDKViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* DemoZooZSDKViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* DemoZooZSDK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				2EBF300616314C600034FE88 /* Default-568h@2x.png */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* DemoZooZSDK_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2E406B9A14FA2D63000FE16C /* Default.png */,
+				A6495656143DBE6C00051170 /* sample_background.png */,
+				2899E5210DE3E06400AC0155 /* DemoZooZSDKViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				2E67C3061564E5F900363321 /* DemoZooZSDK-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E2F7AE916CE74D4000B95CC /* ZooZSDK.embeddedframework */,
+				2E6F8306148D3A0B0060C36B /* libz.dylib */,
+				2E4B9D9214F1A1B6008AE25F /* libxml2.dylib */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				A649566B143DC3E100051170 /* Security.framework */,
+				A6495673143DC43E00051170 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E2F7AE916CE74D4000B95CC /* ZooZSDK.embeddedframework */ = {
+			isa = PBXGroup;
+			children = (
+				2E2F7AEA16CE74D4000B95CC /* Resources */,
+				2E2F7B4A16CE74D4000B95CC /* ZooZSDK.framework */,
+			);
+			name = ZooZSDK.embeddedframework;
+			path = ../ZooZSDK.embeddedframework;
+			sourceTree = "<group>";
+		};
+		2E2F7AEA16CE74D4000B95CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2E2F7AEB16CE74D4000B95CC /* arrow.png */,
+				2E2F7AEC16CE74D4000B95CC /* arrow@2x.png */,
+				2E2F7AED16CE74D4000B95CC /* arrow_Hover.png */,
+				2E2F7AEE16CE74D4000B95CC /* arrow_Hover@2x.png */,
+				2E2F7AEF16CE74D4000B95CC /* button_black.png */,
+				2E2F7AF016CE74D4000B95CC /* button_blue.png */,
+				2E2F7AF116CE74D4000B95CC /* button_green.png */,
+				2E2F7AF216CE74D4000B95CC /* button_green_big_press.png */,
+				2E2F7AF316CE74D4000B95CC /* button_green_big_up.png */,
+				2E2F7AF416CE74D4000B95CC /* button_green_small_press.png */,
+				2E2F7AF516CE74D4000B95CC /* button_green_small_up.png */,
+				2E2F7AF616CE74D4000B95CC /* camera.png */,
+				2E2F7AF716CE74D4000B95CC /* cards_all.png */,
+				2E2F7AF816CE74D4000B95CC /* cards_americanexpress.png */,
+				2E2F7AF916CE74D4000B95CC /* cards_americanexpress@2x.png */,
+				2E2F7AFA16CE74D4000B95CC /* cards_americanexpress_s.png */,
+				2E2F7AFB16CE74D4000B95CC /* cards_diners.png */,
+				2E2F7AFC16CE74D4000B95CC /* cards_diners@2x.png */,
+				2E2F7AFD16CE74D4000B95CC /* cards_diners_s.png */,
+				2E2F7AFE16CE74D4000B95CC /* cards_discover.png */,
+				2E2F7AFF16CE74D4000B95CC /* cards_discover@2x.png */,
+				2E2F7B0016CE74D4000B95CC /* cards_discover_s.png */,
+				2E2F7B0116CE74D4000B95CC /* cards_dwolla.png */,
+				2E2F7B0216CE74D4000B95CC /* cards_generic.png */,
+				2E2F7B0316CE74D4000B95CC /* cards_generic_s.png */,
+				2E2F7B0416CE74D4000B95CC /* cards_isracard_s.png */,
+				2E2F7B0516CE74D4000B95CC /* cards_jcb.png */,
+				2E2F7B0616CE74D4000B95CC /* cards_jcb@2x.png */,
+				2E2F7B0716CE74D4000B95CC /* cards_jcb_s.png */,
+				2E2F7B0816CE74D4000B95CC /* cards_klarna.png */,
+				2E2F7B0916CE74D4000B95CC /* cards_leumimastercard.png */,
+				2E2F7B0A16CE74D4000B95CC /* cards_leumivisa.png */,
+				2E2F7B0B16CE74D4000B95CC /* cards_mastercard.png */,
+				2E2F7B0C16CE74D4000B95CC /* cards_mastercard@2x.png */,
+				2E2F7B0D16CE74D4000B95CC /* cards_mastercard_s.png */,
+				2E2F7B0E16CE74D4000B95CC /* cards_paypal.png */,
+				2E2F7B0F16CE74D4000B95CC /* cards_paypal@2x.png */,
+				2E2F7B1016CE74D4000B95CC /* cards_qiwi.png */,
+				2E2F7B1116CE74D4000B95CC /* cards_visa.png */,
+				2E2F7B1216CE74D4000B95CC /* cards_visa@2x.png */,
+				2E2F7B1316CE74D4000B95CC /* cards_visa_s.png */,
+				2E2F7B1416CE74D4000B95CC /* checkbox_checked.png */,
+				2E2F7B1516CE74D4000B95CC /* checkbox_unchecked.png */,
+				2E2F7B1616CE74D4000B95CC /* creditcard-logo.png */,
+				2E2F7B1716CE74D4000B95CC /* cvv_americanexpress.png */,
+				2E2F7B1816CE74D4000B95CC /* cvv_mastercard.png */,
+				2E2F7B1916CE74D4000B95CC /* cvv_other.png */,
+				2E2F7B1A16CE74D4000B95CC /* cvv_visa.png */,
+				2E2F7B1B16CE74D4000B95CC /* delete.png */,
+				2E2F7B1C16CE74D4000B95CC /* dotted_line.png */,
+				2E2F7B1D16CE74D4000B95CC /* dwolla-logo.png */,
+				2E2F7B1E16CE74D4000B95CC /* icon_card.png */,
+				2E2F7B1F16CE74D4000B95CC /* icon_info.png */,
+				2E2F7B2016CE74D4000B95CC /* icon_V.png */,
+				2E2F7B2116CE74D4000B95CC /* klarna-logo.png */,
+				2E2F7B2216CE74D4000B95CC /* Localizable-Netswipe.strings */,
+				2E2F7B2316CE74D4000B95CC /* lock_small.png */,
+				2E2F7B2416CE74D4000B95CC /* logo_big.png */,
+				2E2F7B2516CE74D4000B95CC /* logo_small.png */,
+				2E2F7B2616CE74D4000B95CC /* paypal-logo.png */,
+				2E2F7B2716CE74D4000B95CC /* paypal-logo@2x.png */,
+				2E2F7B2816CE74D4000B95CC /* qiwi-logo.png */,
+				2E2F7B2916CE74D4000B95CC /* sandbox.png */,
+				2E2F7B2A16CE74D4000B95CC /* seal.png */,
+				2E2F7B2B16CE74D4000B95CC /* seal1.png */,
+				2E2F7B2C16CE74D4000B95CC /* seal2.png */,
+				2E2F7B2D16CE74D4000B95CC /* seal4.png */,
+				2E2F7B2E16CE74D4000B95CC /* security_button_press.png */,
+				2E2F7B2F16CE74D4000B95CC /* security_button_up.png */,
+				2E2F7B3016CE74D4000B95CC /* security_icon_arow_press.png */,
+				2E2F7B3116CE74D4000B95CC /* security_icon_arow_up.png */,
+				2E2F7B3216CE74D4000B95CC /* security_icon_fingerprint_press.png */,
+				2E2F7B3316CE74D4000B95CC /* security_icon_fingerprint_up.png */,
+				2E2F7B3416CE74D4000B95CC /* shadow.png */,
+				2E2F7B3516CE74D4000B95CC /* shadow_780.png */,
+				2E2F7B3616CE74D4000B95CC /* texbox.png */,
+				2E2F7B3716CE74D4000B95CC /* topHeader.png */,
+				2E2F7B3816CE74D4000B95CC /* White_title.png */,
+				2E2F7B3916CE74D4000B95CC /* White_title_bottom_shadow.png */,
+				2E2F7B3A16CE74D4000B95CC /* ZooZCardSelection.nib */,
+				2E2F7B3B16CE74D4000B95CC /* ZooZCardSelection_ipad.nib */,
+				2E2F7B3C16CE74D4000B95CC /* ZooZDwollaViewController.nib */,
+				2E2F7B3D16CE74D4000B95CC /* ZooZEndPayment.nib */,
+				2E2F7B3E16CE74D4000B95CC /* ZooZEndPayment_ipad.nib */,
+				2E2F7B3F16CE74D4000B95CC /* ZooZFundTypeSelectView.nib */,
+				2E2F7B4016CE74D4000B95CC /* ZooZFundTypeSelectView_ipad.nib */,
+				2E2F7B4116CE74D4000B95CC /* ZooZGenWebController.nib */,
+				2E2F7B4216CE74D4000B95CC /* ZooZGenWebController_ipad.nib */,
+				2E2F7B4316CE74D4000B95CC /* zoozi18n.bundle */,
+				2E2F7B4416CE74D4000B95CC /* ZooZNewCardController.nib */,
+				2E2F7B4516CE74D4000B95CC /* ZooZNewCardController_ipad.nib */,
+				2E2F7B4616CE74D4000B95CC /* ZooZPasscodeSave.nib */,
+				2E2F7B4716CE74D4000B95CC /* ZooZPassCodeSave_ipad.nib */,
+				2E2F7B4816CE74D4000B95CC /* ZooZPasscodeVerify.nib */,
+				2E2F7B4916CE74D4000B95CC /* ZooZPasscodeVerify_ipad.nib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* DemoZooZSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DemoZooZSDK" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoZooZSDK;
+			productName = DemoZooZSDK;
+			productReference = 1D6058910D05DD3D006BFB54 /* DemoZooZSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DemoZooZSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* DemoZooZSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* DemoZooZSDKViewController.xib in Resources */,
+				A6495657143DBE6C00051170 /* sample_background.png in Resources */,
+				2E406B9B14FA2D63000FE16C /* Default.png in Resources */,
+				2EBF300716314C600034FE88 /* Default-568h@2x.png in Resources */,
+				2E2F7B4B16CE74D4000B95CC /* arrow.png in Resources */,
+				2E2F7B4C16CE74D4000B95CC /* arrow@2x.png in Resources */,
+				2E2F7B4D16CE74D4000B95CC /* arrow_Hover.png in Resources */,
+				2E2F7B4E16CE74D4000B95CC /* arrow_Hover@2x.png in Resources */,
+				2E2F7B4F16CE74D4000B95CC /* button_black.png in Resources */,
+				2E2F7B5016CE74D4000B95CC /* button_blue.png in Resources */,
+				2E2F7B5116CE74D4000B95CC /* button_green.png in Resources */,
+				2E2F7B5216CE74D4000B95CC /* button_green_big_press.png in Resources */,
+				2E2F7B5316CE74D4000B95CC /* button_green_big_up.png in Resources */,
+				2E2F7B5416CE74D4000B95CC /* button_green_small_press.png in Resources */,
+				2E2F7B5516CE74D4000B95CC /* button_green_small_up.png in Resources */,
+				2E2F7B5616CE74D4000B95CC /* camera.png in Resources */,
+				2E2F7B5716CE74D4000B95CC /* cards_all.png in Resources */,
+				2E2F7B5816CE74D4000B95CC /* cards_americanexpress.png in Resources */,
+				2E2F7B5916CE74D4000B95CC /* cards_americanexpress@2x.png in Resources */,
+				2E2F7B5A16CE74D4000B95CC /* cards_americanexpress_s.png in Resources */,
+				2E2F7B5B16CE74D4000B95CC /* cards_diners.png in Resources */,
+				2E2F7B5C16CE74D4000B95CC /* cards_diners@2x.png in Resources */,
+				2E2F7B5D16CE74D4000B95CC /* cards_diners_s.png in Resources */,
+				2E2F7B5E16CE74D4000B95CC /* cards_discover.png in Resources */,
+				2E2F7B5F16CE74D4000B95CC /* cards_discover@2x.png in Resources */,
+				2E2F7B6016CE74D4000B95CC /* cards_discover_s.png in Resources */,
+				2E2F7B6116CE74D4000B95CC /* cards_dwolla.png in Resources */,
+				2E2F7B6216CE74D4000B95CC /* cards_generic.png in Resources */,
+				2E2F7B6316CE74D4000B95CC /* cards_generic_s.png in Resources */,
+				2E2F7B6416CE74D4000B95CC /* cards_isracard_s.png in Resources */,
+				2E2F7B6516CE74D4000B95CC /* cards_jcb.png in Resources */,
+				2E2F7B6616CE74D4000B95CC /* cards_jcb@2x.png in Resources */,
+				2E2F7B6716CE74D4000B95CC /* cards_jcb_s.png in Resources */,
+				2E2F7B6816CE74D4000B95CC /* cards_klarna.png in Resources */,
+				2E2F7B6916CE74D4000B95CC /* cards_leumimastercard.png in Resources */,
+				2E2F7B6A16CE74D4000B95CC /* cards_leumivisa.png in Resources */,
+				2E2F7B6B16CE74D4000B95CC /* cards_mastercard.png in Resources */,
+				2E2F7B6C16CE74D4000B95CC /* cards_mastercard@2x.png in Resources */,
+				2E2F7B6D16CE74D4000B95CC /* cards_mastercard_s.png in Resources */,
+				2E2F7B6E16CE74D4000B95CC /* cards_paypal.png in Resources */,
+				2E2F7B6F16CE74D4000B95CC /* cards_paypal@2x.png in Resources */,
+				2E2F7B7016CE74D4000B95CC /* cards_qiwi.png in Resources */,
+				2E2F7B7116CE74D4000B95CC /* cards_visa.png in Resources */,
+				2E2F7B7216CE74D4000B95CC /* cards_visa@2x.png in Resources */,
+				2E2F7B7316CE74D4000B95CC /* cards_visa_s.png in Resources */,
+				2E2F7B7416CE74D4000B95CC /* checkbox_checked.png in Resources */,
+				2E2F7B7516CE74D4000B95CC /* checkbox_unchecked.png in Resources */,
+				2E2F7B7616CE74D4000B95CC /* creditcard-logo.png in Resources */,
+				2E2F7B7716CE74D4000B95CC /* cvv_americanexpress.png in Resources */,
+				2E2F7B7816CE74D4000B95CC /* cvv_mastercard.png in Resources */,
+				2E2F7B7916CE74D4000B95CC /* cvv_other.png in Resources */,
+				2E2F7B7A16CE74D4000B95CC /* cvv_visa.png in Resources */,
+				2E2F7B7B16CE74D4000B95CC /* delete.png in Resources */,
+				2E2F7B7C16CE74D4000B95CC /* dotted_line.png in Resources */,
+				2E2F7B7D16CE74D4000B95CC /* dwolla-logo.png in Resources */,
+				2E2F7B7E16CE74D4000B95CC /* icon_card.png in Resources */,
+				2E2F7B7F16CE74D4000B95CC /* icon_info.png in Resources */,
+				2E2F7B8016CE74D4000B95CC /* icon_V.png in Resources */,
+				2E2F7B8116CE74D4000B95CC /* klarna-logo.png in Resources */,
+				2E2F7B8216CE74D4000B95CC /* Localizable-Netswipe.strings in Resources */,
+				2E2F7B8316CE74D4000B95CC /* lock_small.png in Resources */,
+				2E2F7B8416CE74D4000B95CC /* logo_big.png in Resources */,
+				2E2F7B8516CE74D4000B95CC /* logo_small.png in Resources */,
+				2E2F7B8616CE74D4000B95CC /* paypal-logo.png in Resources */,
+				2E2F7B8716CE74D4000B95CC /* paypal-logo@2x.png in Resources */,
+				2E2F7B8816CE74D4000B95CC /* qiwi-logo.png in Resources */,
+				2E2F7B8916CE74D4000B95CC /* sandbox.png in Resources */,
+				2E2F7B8A16CE74D4000B95CC /* seal.png in Resources */,
+				2E2F7B8B16CE74D4000B95CC /* seal1.png in Resources */,
+				2E2F7B8C16CE74D4000B95CC /* seal2.png in Resources */,
+				2E2F7B8D16CE74D4000B95CC /* seal4.png in Resources */,
+				2E2F7B8E16CE74D4000B95CC /* security_button_press.png in Resources */,
+				2E2F7B8F16CE74D4000B95CC /* security_button_up.png in Resources */,
+				2E2F7B9016CE74D4000B95CC /* security_icon_arow_press.png in Resources */,
+				2E2F7B9116CE74D4000B95CC /* security_icon_arow_up.png in Resources */,
+				2E2F7B9216CE74D4000B95CC /* security_icon_fingerprint_press.png in Resources */,
+				2E2F7B9316CE74D4000B95CC /* security_icon_fingerprint_up.png in Resources */,
+				2E2F7B9416CE74D4000B95CC /* shadow.png in Resources */,
+				2E2F7B9516CE74D4000B95CC /* shadow_780.png in Resources */,
+				2E2F7B9616CE74D4000B95CC /* texbox.png in Resources */,
+				2E2F7B9716CE74D4000B95CC /* topHeader.png in Resources */,
+				2E2F7B9816CE74D4000B95CC /* White_title.png in Resources */,
+				2E2F7B9916CE74D4000B95CC /* White_title_bottom_shadow.png in Resources */,
+				2E2F7B9A16CE74D4000B95CC /* ZooZCardSelection.nib in Resources */,
+				2E2F7B9B16CE74D4000B95CC /* ZooZCardSelection_ipad.nib in Resources */,
+				2E2F7B9C16CE74D4000B95CC /* ZooZDwollaViewController.nib in Resources */,
+				2E2F7B9D16CE74D4000B95CC /* ZooZEndPayment.nib in Resources */,
+				2E2F7B9E16CE74D4000B95CC /* ZooZEndPayment_ipad.nib in Resources */,
+				2E2F7B9F16CE74D4000B95CC /* ZooZFundTypeSelectView.nib in Resources */,
+				2E2F7BA016CE74D4000B95CC /* ZooZFundTypeSelectView_ipad.nib in Resources */,
+				2E2F7BA116CE74D4000B95CC /* ZooZGenWebController.nib in Resources */,
+				2E2F7BA216CE74D4000B95CC /* ZooZGenWebController_ipad.nib in Resources */,
+				2E2F7BA316CE74D4000B95CC /* zoozi18n.bundle in Resources */,
+				2E2F7BA416CE74D4000B95CC /* ZooZNewCardController.nib in Resources */,
+				2E2F7BA516CE74D4000B95CC /* ZooZNewCardController_ipad.nib in Resources */,
+				2E2F7BA616CE74D4000B95CC /* ZooZPasscodeSave.nib in Resources */,
+				2E2F7BA716CE74D4000B95CC /* ZooZPassCodeSave_ipad.nib in Resources */,
+				2E2F7BA816CE74D4000B95CC /* ZooZPasscodeVerify.nib in Resources */,
+				2E2F7BA916CE74D4000B95CC /* ZooZPasscodeVerify_ipad.nib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* DemoZooZSDKAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* DemoZooZSDKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../ZooZSDK.embeddedframework\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DemoZooZSDK_Prefix.pch;
+				INFOPLIST_FILE = "DemoZooZSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = DemoZooZSDK;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv6 $(ARCHS_STANDARD_32_BIT)";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					"$(ARCHS_STANDARD_32_BIT)",
+					armv6,
+				);
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../ZooZSDK.embeddedframework\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DemoZooZSDK_Prefix.pch;
+				INFOPLIST_FILE = "DemoZooZSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = DemoZooZSDK;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv6 $(ARCHS_STANDARD_32_BIT)";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DemoZooZSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DemoZooZSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

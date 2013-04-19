@@ -1,0 +1,213 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* DemoZooZSDKAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {704, 362}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 504}";
+		};
+	};
+	1D3623250D0F684500981E51 /* DemoZooZSDKAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1170}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 750}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* DemoZooZSDK */ = {
+		activeExec = 0;
+		executables = (
+			A64955DF143DBD2C00051170 /* DemoZooZSDK */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* DemoZooZSDKViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {961, 333}}";
+			sepNavSelRange = "{206, 0}";
+			sepNavVisRange = "{0, 368}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* DemoZooZSDKViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {943, 1196}}";
+			sepNavSelRange = "{1487, 36}";
+			sepNavVisRange = "{1199, 783}";
+			sepNavWindowFrame = "{{15, 615}, {750, 558}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = A64955DF143DBD2C00051170 /* DemoZooZSDK */;
+		activeSDKPreference = iphoneos4.3;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* DemoZooZSDK */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* DemoZooZSDK */,
+		);
+		codeSenseManager = A64955F2143DBD4200051170 /* Code sense */;
+		executables = (
+			A64955DF143DBD2C00051170 /* DemoZooZSDK */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					741,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 342874512;
+			PBXWorkspaceStateSaveDate = 342874512;
+		};
+		perUserProjectItems = {
+			A649567B143DC49B00051170 /* PBXTextBookmark */ = A649567B143DC49B00051170 /* PBXTextBookmark */;
+			A649567D143DC49B00051170 /* PBXTextBookmark */ = A649567D143DC49B00051170 /* PBXTextBookmark */;
+			A6642F35144EF79700DC72DB /* PBXTextBookmark */ = A6642F35144EF79700DC72DB /* PBXTextBookmark */;
+			A691A2D414600E90006716B2 /* PBXTextBookmark */ = A691A2D414600E90006716B2 /* PBXTextBookmark */;
+			A691A2D514600E90006716B2 /* PlistBookmark */ = A691A2D514600E90006716B2 /* PlistBookmark */;
+			A69D067F146FDB3400252FD7 /* PBXTextBookmark */ = A69D067F146FDB3400252FD7 /* PBXTextBookmark */;
+			A69D0680146FDB3400252FD7 /* PBXTextBookmark */ = A69D0680146FDB3400252FD7 /* PBXTextBookmark */;
+		};
+		sourceControlManager = A64955F1143DBD4200051170 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	A64955DF143DBD2C00051170 /* DemoZooZSDK */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = DemoZooZSDK;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		startupPath = "<<ProjectDirectory>>";
+	};
+	A64955F1143DBD4200051170 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	A64955F2143DBD4200051170 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	A649567B143DC49B00051170 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* DemoZooZSDKAppDelegate.h */;
+		name = "DemoZooZSDKAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 504;
+		vrLoc = 0;
+	};
+	A649567D143DC49B00051170 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* DemoZooZSDKAppDelegate.m */;
+		name = "DemoZooZSDKAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 750;
+		vrLoc = 0;
+	};
+	A6642F35144EF79700DC72DB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* DemoZooZSDKViewController.h */;
+		name = "DemoZooZSDKViewController.h: 10";
+		rLen = 0;
+		rLoc = 206;
+		rType = 0;
+		vrLen = 368;
+		vrLoc = 0;
+	};
+	A6642FA11450210800DC72DB /* ZooZPaymentRequest.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = ZooZPaymentRequest.h;
+		path = /Users/rmorecki/Documents/iphone/projects/svn/archive_mock2/ZooZ_iOS_SDK/ZooZSDK.embeddedframework/ZooZSDK.framework/Headers/ZooZPaymentRequest.h;
+		sourceTree = "<absolute>";
+	};
+	A691A2D414600E90006716B2 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = A6642FA11450210800DC72DB /* ZooZPaymentRequest.h */;
+		name = "ZooZPaymentRequest.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 659;
+		vrLoc = 0;
+	};
+	A691A2D514600E90006716B2 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* DemoZooZSDK-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIdentifier,
+		);
+		name = "/Users/rmorecki/Documents/iphone/projects/svn/archive_mock2/ZooZ_iOS_SDK/DemoZooZSDK/DemoZooZSDK-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	A69D067F146FDB3400252FD7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* DemoZooZSDKViewController.m */;
+		name = "DemoZooZSDKViewController.m: 58";
+		rLen = 36;
+		rLoc = 1487;
+		rType = 0;
+		vrLen = 783;
+		vrLoc = 1199;
+	};
+	A69D0680146FDB3400252FD7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* DemoZooZSDKViewController.m */;
+		name = "DemoZooZSDKViewController.m: 58";
+		rLen = 36;
+		rLoc = 1487;
+		rType = 0;
+		vrLen = 783;
+		vrLoc = 1199;
+	};
+}

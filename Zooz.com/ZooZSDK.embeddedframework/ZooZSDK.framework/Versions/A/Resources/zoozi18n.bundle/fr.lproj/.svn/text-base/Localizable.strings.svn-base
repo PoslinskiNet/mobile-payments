@@ -1,0 +1,53 @@
+/* 
+ Localizable.strings
+ ZooZSDK
+ 
+ Created by Ronen Morecki on 12/18/11.
+ Copyright (c) 2011 ronen@zooz.co. All rights reserved.
+ */
+"CVV is missing" = "חסר נתון CVV";
+"Continue"="המשך";
+"Pay now"="שלם";
+"- Pay with:" = "";
+"Total:"="סה\"כ";
+"Not Accepted"="לא מתקבל";
+"Thank You"="תודה רבה";
+"Payment is confirmed"="תשלום אושר";
+"Remember me in ZooZ mobile payment service."="זכור אותי בתשלומים עתידיים ממכשיר זה";
+"Excellent"="להתראות!";
+"Card owner full name"="שם מלא של בעל כרטיס";
+"Enter card number"="מספר כרטיס";
+"Expiration"="תוקף";
+"CVV"="CVV";
+"Zip Code"="מיקוד";
+"ID Number"="תעודת זהות";
+"ZooZ Mobile Payments"="ZooZ תשלומים במובייל";
+"Card number is incorrect"="מספר כרטיס אינו תקין";
+"CVV is missing"="חסר קוד CVV";
+"Missing ZIP Code"="חסר מיקוד";
+"Missing ID Number"="חסר ת.ז.";
+"Expiration date is missing"="חסר תוקף";
+"Missing card owner name"="חסר שם בעל כרטיס";
+"Credit Card"="כרטיס אשראי";
+"PayPal Warning"="אזהרת PayPal";
+"PayPal is not available for this device"="פייפאל אינו פעיל עבור מכשיר זה";
+"Ok"="אוקיי";
+"4 Digits passcode"="סיסמא 4 ספרות";
+"4 Digits"="4 ספרות";
+"Retype"="הקש שוב";
+"Code does not match"="קוד שהוקש אינו תואם";
+"Please create your passcode:"="אנא צור סיסמא אישית";
+"Save"="שמור";
+"Wrong Passcode"="סיסמא שגויה";
+"Please Enter your ZooZ Passcode"="אנא הקש את סיסמאת ZooZ";
+"Forgot passcode? Click here to enter card details"="שכחת סיסמא? הקש כאן כדי להכניס פרטי אמצעי תשלום";
+"Not Accepted"="לא מתקבל";
+"Warning"="אזהרה";
+"Some network error occured"="נראה כי יש בעיית קישוריות לאינטרנט";
+"Some general service error occured, please try again later"="תקלת שירות. אנא נסה שוב מאוחר יותר או צור קשר עם תמיכת לקוחות";
+"Network Error"="תקלת קישוריות אינטרנט";
+"We identified that you have the ZooZ app installed on your phone. Please enter the passcode as used in ZooZ app ,or as saved in previous ZooZ payments on this device."="זיהינו כי על מכשירך מותקנת אפליקציית זוז. אנא הקש את הסיסמא כפי ששמרת באפליקציה זו או כפי ששמרת בתשלומי זוז קודמיםת.";
+"This passcode will be used for future payments from this device for all apps that uses the ZooZ mobile payment checkout."="סיסמא זו תשמש אותך בפעם הבאה שתשלם ממכשיר זה בכל אפליקציה המשתמשת בזוז מערכת תשלומים למובייל";
+
+
+

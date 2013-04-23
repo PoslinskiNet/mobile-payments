@@ -11,6 +11,8 @@
 
 #define IS_SANDBOX YES
 
+#define APP_KEY @"b7319a28-44e8-484a-9e92-99f3cc151307"
+
 @implementation DemoZooZSDKViewController
 
 
@@ -20,7 +22,7 @@
     
     //optional pre init, so the ZooZ screen will upload immediatly, you can skip this call
     ZooZ * zooz = [ZooZ sharedInstance];
-    [zooz preInitialize:@"951bde04-5a26-4200-a94e-34d775a1e5f9" isSandboxEnv:IS_SANDBOX];
+    [zooz preInitialize:APP_KEY isSandboxEnv:IS_SANDBOX];
 
 }
 
@@ -38,7 +40,7 @@
     //optional image that will be displayed on the NavigationBar as your logo
 //    zooz.barTitleImage = [UIImage imageNamed:@"MyLogo.png"];
     
-    ZooZPaymentRequest * req = [zooz createPaymentRequestWithTotal:12.1 invoiceRefNumber:@"test invoice ref-1234" delegate:self];
+    ZooZPaymentRequest * req = [zooz createPaymentRequestWithTotal:1.0 invoiceRefNumber:@"Selleo test invoice" delegate:self];
     
     /*
     //If you want only to allow regsiter cards and not do payment use this instead of the above:
@@ -49,7 +51,7 @@
     
     req.payerDetails.firstName = @"Some";
     
-    req.payerDetails.email = @"test@zooz.com";
+    req.payerDetails.email = @"sdk@skrzynka.pl";
     
     req.payerDetails.billingAddress.zipCode=@"01234";
     
@@ -63,7 +65,7 @@
     
     req.invoice.additionalDetails = @"Custom invoice description text";
         
-    [zooz openPayment:req forAppKey:@"951bde04-5a26-4200-a94e-34d775a1e5f9"];
+    [zooz openPayment:req forAppKey:APP_KEY];
     
 }
 - (void)openPaymentRequestFailed:(ZooZPaymentRequest *)request withErrorCode:(int)errorCode andErrorMessage:(NSString *)errorMessage{

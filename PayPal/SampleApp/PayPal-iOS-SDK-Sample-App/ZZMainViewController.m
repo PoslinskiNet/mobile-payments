@@ -34,8 +34,8 @@
 #import <QuartzCore/QuartzCore.h>
 
 #warning "Enter your credentials"
-#define kPayPalClientId @"YOUR CLIENT ID HERE"
-#define kPayPalReceiverEmail @"YOUR_PAYPAL_EMAIL@yourdomain.com"
+#define kPayPalClientId @"AS3TWRAN0rSD5REGoBt-nhswjQhY1EWTG1Prs_Lu7v1K2Fc0yQPbespkdZHm"
+#define kPayPalReceiverEmail @"paypal-deposit@selleo.com"
 
 @interface ZZMainViewController ()
 
@@ -87,9 +87,9 @@
   self.completedPayment = nil;
   
   PayPalPayment *payment = [[PayPalPayment alloc] init];
-  payment.amount = [[NSDecimalNumber alloc] initWithString:@"9.95"];
+  payment.amount = [[NSDecimalNumber alloc] initWithString:@"1"];
   payment.currencyCode = @"USD";
-  payment.shortDescription = @"Hipster t-shirt";
+  payment.shortDescription = @"Kudos";
 
   if (!payment.processable) {
     // This particular payment will always be processable. If, for
@@ -100,7 +100,7 @@
 
   // Any customer identifier that you have will work here. Do NOT use a device- or
   // hardware-based identifier.
-  NSString *customerId = @"user-11723";
+  NSString *customerId = @"selleo-test-2013";
 
   // Set the environment:
   // - For live charges, use PayPalEnvironmentProduction (default).

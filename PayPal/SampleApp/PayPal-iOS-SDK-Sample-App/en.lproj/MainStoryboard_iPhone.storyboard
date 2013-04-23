@@ -165,25 +165,6 @@
     <resources>
         <image name="check.png" width="84" height="75"/>
     </resources>
-    <classes>
-        <class className="ZZFlipsideViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ZZFlipsideViewController.h"/>
-            <relationships>
-                <relationship kind="action" name="done:"/>
-                <relationship kind="outlet" name="acceptCreditCardsSwitch" candidateClass="UISwitch"/>
-                <relationship kind="outlet" name="environmentSegmentedControl" candidateClass="UISegmentedControl"/>
-                <relationship kind="outlet" name="proofOfPaymentLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="proofOfPaymentTextView" candidateClass="UITextView"/>
-            </relationships>
-        </class>
-        <class className="ZZMainViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/ZZMainViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="payButton" candidateClass="UIButton"/>
-                <relationship kind="outlet" name="successView" candidateClass="UIView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
